@@ -26,6 +26,6 @@ Go to localhost:3004. You should get a list of the routes available for use with
 - History for a user: /rx/v1/history
 - Prescription status for a user: /rx/v1/prescription
 - Prescription status for a specific prescription (id = 1435525): /rx/v1/prescription/1435525
-- Tracking for a specific prescription (id = 1435525)": "/rx/v1/tracking/1435525
+- Tracking for a specific prescription (id = 1435525): /rx/v1/tracking/1435525
 
 Go to any of these routes (for example localhost:3004/rx/v1/history) to get a json response that will match the format you will receive from the real API. 
