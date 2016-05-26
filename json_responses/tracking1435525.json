@@ -1,0 +1,48 @@
+{
+  "prescriptionName": "Drug 1 250MG TAB",
+  "prescriptionNumber": "2719324",
+  "facilityName": "ABC123",
+  "rxInfoPhoneNumber": "(333)772-1111",
+  "ndcNumber": "12345678910",
+  "lastUpdatedtime": "Wed, 27 Apr 2016 04:30:15 EDT",
+  "trackingInfo": [
+    {
+      "shippedDate": "Thu, 21 Apr 2016 00:00:00 EDT",
+      "deliveryService": "UPS",
+      "trackingNumber": "01234567890",
+      "otherPrescriptionListIncluded": [
+        {
+          "prescriptionName": "Drug 1 400MG TAB",
+          "prescriptionNumber": "2719323",
+          "ndcNumber": "12345678910",
+          "stationNumber": "12"
+        }
+      ]
+    },
+    {
+      "shippedDate": "Mon, 11 Apr 2016 00:00:00 EDT",
+      "deliveryService": "UPS",
+      "trackingNumber": "54321612345",
+      "otherPrescriptionListIncluded": [
+        {
+          "prescriptionName": "Drug 2 100MG TAB",
+          "prescriptionNumber": "1236125",
+          "ndcNumber": "43218036987",
+          "stationNumber": "13"
+        },
+        {
+          "prescriptionName": "Drug 3 0.25MG TAB",
+          "prescriptionNumber": "1236123",
+          "ndcNumber": "43218036987",
+          "stationNumber": "13"
+        },
+        {
+          "prescriptionName": "Drug with a longer name so it fits on the screen 100MG TAB",
+          "prescriptionNumber": "4219381",
+          "ndcNumber": "32178036789",
+          "stationNumber": "12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "Important Note:": "None of this data nor user identifiers are real",
+  "Using this mock API": "",
+  "History for a user": "\/rx\/v1\/history",
+  "Prescription status for a user": "\/rx\/v1\/prescription",
+  "Prescription status for a specific prescription (id = 1435525)": "\/rx\/v1\/prescription\/1435525",
+  "Tracking for a specific prescription (id = 1435525)": "\/rx\/v1\/tracking\/1435525"
+}
