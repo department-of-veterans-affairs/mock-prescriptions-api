@@ -14,22 +14,10 @@ puts "Server started: https://localhost:#{port}/"
 
 root = File.expand_path './public'
 
-server = WEBrick::HTTPServer.new( Port: port,
-                                  DocumentRoot: root,
-                                  SSLEnable: true,
-                                  SSLCertName: cert_name,
-                                  SSLPrivateKey: OpenSSL::PKey::RSA.new(File.open(ENV['SSL_KEY_PATH']).read),
-                                  SSLCertificate: OpenSSL::X509::Certificate.new(File.open(ENV['SSL_CERT_PATH']).read),
-                                  SSLVerifyClient: OpenSSL::SSL::VERIFY_NONE)
+server = WEBrick::HTTPServer.new Port: port, DocumentRoot: root
 
 server.mount_proc '/' do |req, res|
-  comments = JSON.parse(File.read('./json_responses/default.json', encoding: 'UTF-8'))
-
-  # always return json
-  res['Content-Type'] = 'application/json'
-  res['Cache-Control'] = 'no-cache'
-  res['Access-Control-Allow-Origin'] = '*'
-  res.body = JSON.generate(comments)
+  generate_response(res, './json_responses/default.json')
 end
 
 server.mount_proc '/mhv-api/patient/v1/session' do |req, res|
@@ -48,37 +36,39 @@ server.mount_proc '/mhv-api/patient/v1/session' do |req, res|
 end
 
 server.mount_proc '/mhv-api/patient/v1/prescription/gethistoryrx' do |req, res|
-  comments = JSON.parse(File.read('./json_responses/history.json', encoding: 'UTF-8'))
+  generate_response(res, './json_responses/history.json')
+end
 
-  # always return json
-  res['Content-Type'] = 'application/json'
-  res['Cache-Control'] = 'no-cache'
-  res['Access-Control-Allow-Origin'] = '*'
-  res.body = JSON.generate(comments)
+server.mount_proc '/rx/v1/history' do |req, res|
+  generate_response(res, './json_responses/history.json')
 end
 
 server.mount_proc '/mhv-api/patient/v1/prescription/getactiverx' do |req, res|
-  comments = JSON.parse(File.read('./json_responses/prescription.json', encoding: 'UTF-8'))
+  generate_response(res, './json_responses/prescription.json')
+end
 
-  # always return json
-  res['Content-Type'] = 'application/json'
-  res['Cache-Control'] = 'no-cache'
-  res['Access-Control-Allow-Origin'] = '*'
-  res.body = JSON.generate(comments)
+server.mount_proc '/rx/v1/prescription' do |req, res|
+  generate_response(res, './json_responses/prescription.json')
 end
 
 server.mount_proc '/mhv-api/patient/v1/prescription/1435525' do |req, res|
-  comments = JSON.parse(File.read('./json_responses/prescription1435525.json', encoding: 'UTF-8'))
+  generate_response(res, './json_responses/prescription1435525.json')
+end
 
-  # always return json
-  res['Content-Type'] = 'application/json'
-  res['Cache-Control'] = 'no-cache'
-  res['Access-Control-Allow-Origin'] = '*'
-  res.body = JSON.generate(comments)
+server.mount_proc '/rx/v1/prescription/1435525' do |req, res|
+  generate_response(res, './json_responses/prescription1435525.json')
 end
 
 server.mount_proc '/mhv-api/patient/v1/prescription/rxtracking/1435525' do |req, res|
-  comments = JSON.parse(File.read('./json_responses/tracking1435525.json', encoding: 'UTF-8'))
+  generate_response(res, './json_responses/tracking1435525.json')
+end
+
+server.mount_proc '/rx/v1/tracking/1435525' do |req, res|
+  generate_response(res, './json_responses/tracking1435525.json')
+end
+
+def generate_response(res, file_location)
+  comments = JSON.parse(File.read(file_location, encoding: 'UTF-8'))
 
   # always return json
   res['Content-Type'] = 'application/json'
