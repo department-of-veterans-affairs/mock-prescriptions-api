@@ -1,14 +1,9 @@
 require 'webrick'
-require 'webrick/https'
 require 'json'
 
 # default port to 3000 or overwrite with PORT variable by running
 # $ PORT=3001 ruby server.rb
-port = ENV['PORT'] ? ENV['PORT'].to_i : 443
-
-cert_name = [
-  %w(CN localhost),
-]
+port = ENV['PORT'] ? ENV['PORT'].to_i : 3004
 
 puts "Server started: https://localhost:#{port}/"
 
