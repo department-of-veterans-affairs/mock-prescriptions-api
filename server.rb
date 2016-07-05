@@ -19,7 +19,22 @@ server.mount_proc '/mhv-api/patient/v1/session' do |req, res|
   res['Date'] = 'Tue, 10 May 2016 16:30:17 GMT'
   res['Server'] = 'Apache/2.2.15 (Red Hat)'
   res['Content-Length'] = 0
-  res['Expires'] = 'Tue, 10 May 2016 16:40:17 GMT'
+  res['Expires'] = 'Tue, 10 May 2017 16:40:17 GMT'
+  res['Token'] = 'GkuX2OZ4dCE=48xrH6ObGXZ45ZAg70LBahi7CjswZe8SZGKMUVFIU88='
+  res['Set-Cookie'] = 'JSESSIONID=QWMKXyMZmBfnC15xJKTQRMPvpMpsRhPJNwc9PGQMhSR8QQ8gQLL8!1523265843; path=/; HttpOnly'
+  res['X-Powered-By'] = 'Servlet/2.5 JSP/2.1'
+  res['Connection'] = 'close'
+  res['Content-Type'] = 'text/plain; charset=UTF-8'
+  res['Cache-Control'] = 'no-cache'
+  res['Access-Control-Allow-Origin'] = '*'
+  res.body = nil
+end
+
+server.mount_proc '/rx/v1/session' do |req, res|
+  res['Date'] = 'Tue, 10 May 2016 16:30:17 GMT'
+  res['Server'] = 'Apache/2.2.15 (Red Hat)'
+  res['Content-Length'] = 0
+  res['Expires'] = 'Tue, 10 May 2017 16:40:17 GMT'
   res['Token'] = 'GkuX2OZ4dCE=48xrH6ObGXZ45ZAg70LBahi7CjswZe8SZGKMUVFIU88='
   res['Set-Cookie'] = 'JSESSIONID=QWMKXyMZmBfnC15xJKTQRMPvpMpsRhPJNwc9PGQMhSR8QQ8gQLL8!1523265843; path=/; HttpOnly'
   res['X-Powered-By'] = 'Servlet/2.5 JSP/2.1'
