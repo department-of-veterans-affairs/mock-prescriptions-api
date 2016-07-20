@@ -1,0 +1,24 @@
+{
+  "triageTeam": [
+    {
+      "name": "Triage group 311070 test 1",
+      "relationType": "PATIENT",
+      "triageTeamId": 585968
+    },
+    {
+      "name": "Triage group 311070 test 2",
+      "relationType": "PATIENT",
+      "triageTeamId": 585986
+    },
+    {
+      "name": "WLC ENHANCEMENT _MRI",
+      "relationType": "PATIENT",
+      "triageTeamId": 280407
+    },
+    {
+      "name": "WORKLOAD CAPTURE_Mohammad",
+      "relationType": "PATIENT",
+      "triageTeamId": 345468
+    }
+  ]
+}

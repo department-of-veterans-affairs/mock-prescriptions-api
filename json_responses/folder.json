@@ -1,0 +1,39 @@
+{
+  "folder": [
+    {
+      "id": 0,
+      "name": "Inbox",
+      "count": 4,
+      "unreadCount": 3,
+      "systemFolder": true
+    },
+    {
+      "id": -2,
+      "name": "Drafts",
+      "count": 1,
+      "unreadCount": 0,
+      "systemFolder": true
+    },
+    {
+      "id": -1,
+      "name": "Sent",
+      "count": 2,
+      "unreadCount": 0,
+      "systemFolder": true
+    },
+    {
+      "id": -3,
+      "name": "Deleted",
+      "count": 0,
+      "unreadCount": 0,
+      "systemFolder": true
+    },
+    {
+      "id": 573077,
+      "name": "MY PRESCRIPTION",
+      "count": 0,
+      "unreadCount": 0,
+      "systemFolder": false
+    }
+  ]
+}

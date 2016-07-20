@@ -1,0 +1,32 @@
+{
+  "message": [
+    {
+      "id": 573052,
+      "category": "OTHER",
+      "subject": "Release 16.2- SM last login ",
+      "body": "Provider Reply",
+      "attachment": false,
+      "attachments": null,
+      "sentDate": "Mon, 11 Apr 2016 15:49:03 GMT",
+      "senderId": 257555,
+      "senderName": "ISLAM, MOHAMMAD",
+      "recipientId": 384939,
+      "recipientName": "MVIONE, TEST",
+      "readReceipt": "READ"
+    },
+    {
+      "id": 573041,
+      "category": "OTHER",
+      "subject": "Release 16.2- SM last login ",
+      "body": "Release 16.2- SM last login ",
+      "attachment": false,
+      "attachments": null,
+      "sentDate": "Mon, 11 Apr 2016 15:48:25 GMT",
+      "senderId": 384939,
+      "senderName": "MVIONE, TEST",
+      "recipientId": 345468,
+      "recipientName": "WORKLOAD CAPTURE_Mohammad",
+      "readReceipt": "READ"
+    }
+  ]
+}
