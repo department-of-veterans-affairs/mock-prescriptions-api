@@ -1,0 +1,9 @@
+{
+  "messageCategoryType": [
+    "OTHER",
+    "APPOINTMENTS",
+    "MEDICATIONS",
+    "TEST_RESULTS",
+    "EDUCATION"
+  ]
+}
