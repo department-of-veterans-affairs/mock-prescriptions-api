@@ -1,0 +1,158 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 0,
+        "name": "Inbox",
+        "count": 2,
+        "unread_count": 0,
+        "system_folder": true
+      }
+    },
+    {
+      "id": "-2",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": -2,
+        "name": "Drafts",
+        "count": 28,
+        "unread_count": 25,
+        "system_folder": true
+      }
+    },
+    {
+      "id": "-1",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": -1,
+        "name": "Sent",
+        "count": 82,
+        "unread_count": 0,
+        "system_folder": true
+      }
+    },
+    {
+      "id": "-3",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": -3,
+        "name": "Deleted",
+        "count": 1,
+        "unread_count": 1,
+        "system_folder": true
+      }
+    },
+    {
+      "id": "610965",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 610965,
+        "name": "AATestKhan",
+        "count": 1,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "573077",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 573077,
+        "name": "MY PRESCRIPTION",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "609400",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 609400,
+        "name": "test folder create name 1",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "609787",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 609787,
+        "name": "test folder create name 160804135012",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "609883",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 609883,
+        "name": "test folder create name 160804140458",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "610046",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 610046,
+        "name": "test folder create name 160804155318",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "610056",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 610056,
+        "name": "test folder create name 160804160233",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "610078",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 610078,
+        "name": "test folder create name 160805101218",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "610347",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 610347,
+        "name": "test folder create name 160808142222",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    },
+    {
+      "id": "610354",
+      "type": "va_healthcare_messaging_folders",
+      "attributes": {
+        "folder_id": 610354,
+        "name": "test folder create name 160808142330",
+        "count": 0,
+        "unread_count": 0,
+        "system_folder": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": "585968",
+      "type": "va_healthcare_messaging_triage_teams",
+      "attributes": {
+        "triage_team_id": 585968,
+        "name": "Triage group 311070 test 1",
+        "relation_type": "PATIENT"
+      }
+    },
+    {
+      "id": "585986",
+      "type": "va_healthcare_messaging_triage_teams",
+      "attributes": {
+        "triage_team_id": 585986,
+        "name": "Triage group 311070 test 2",
+        "relation_type": "PATIENT"
+      }
+    },
+    {
+      "id": "613586",
+      "type": "va_healthcare_messaging_triage_teams",
+      "attributes": {
+        "triage_team_id": 613586,
+        "name": "Vets.gov Testing_DAYT29",
+        "relation_type": "PATIENT"
+      }
+    }
+  ]
+}

@@ -117,6 +117,23 @@ server.mount_proc '/mhv-sm-api/patient/v1/message/category' do |req, res|
   generate_response(res, './json_responses/messagecategory.json')
 end
 
+server.mount_proc '/v0/messaging/health/folders' do |req, res|
+  generate_response(res, './json_responses/folders.json')
+end
+
+server.mount_proc '/v0/messaging/health/folders/12345/messages' do |req, res|
+  generate_response(res, './json_responses/folders-messages.json')
+end
+
+server.mount_proc '/v0/messaging/health/messages/12345/thread' do |req, res|
+  generate_response(res, './json_responses/messages-thread.json')
+end
+
+server.mount_proc '/v0/messaging/health/recipients' do |req, res|
+  generate_response(res, './json_responses/recipients.json')
+end
+
+
 def generate_response(res, file_location)
   comments = JSON.parse(File.read(file_location, encoding: 'UTF-8'))
 

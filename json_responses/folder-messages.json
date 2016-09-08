@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": "573302",
+      "type": "va_healthcare_messaging_messages",
+      "attributes": {
+        "message_id": 573302,
+        "category": "OTHER",
+        "subject": "Release 16.2- SM last login ",
+        "body": null,
+        "attachment": false,
+        "sent_date": "2016-04-13T21:17:57.000Z",
+        "sender_id": 384939,
+        "sender_name": "A, TEST",
+        "recipient_id": 35382,
+        "recipient_name": "Manivasagam, Rajesh",
+        "read_receipt": "READ"
+      }
+    },
+    {
+      "id": "573052",
+      "type": "va_healthcare_messaging_messages",
+      "attributes": {
+        "message_id": 573052,
+        "category": "OTHER",
+        "subject": "Release 16.2- SM last login ",
+        "body": null,
+        "attachment": false,
+        "sent_date": "2016-04-11T15:49:03.000Z",
+        "sender_id": 384939,
+        "sender_name": "MVIONE, TEST",
+        "recipient_id": 257555,
+        "recipient_name": "ISLAM, MOHAMMAD",
+        "read_receipt": "READ"
+      }
+    }
+  ],
+  "meta": {
+    "id": 0,
+    "current_page": 1,
+    "per_page": 100
+  }
+}

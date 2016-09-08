@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "id": "573052",
+      "type": "va_healthcare_messaging_messages",
+      "attributes": {
+        "message_id": 573052,
+        "category": "OTHER",
+        "subject": "Release 16.2- SM last login ",
+        "body": "Provider Reply blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+        "attachment": false,
+        "sent_date": "2016-04-11T15:49:03.000Z",
+        "sender_id": 257555,
+        "sender_name": "firstname, lastname",
+        "recipient_id": 384939,
+        "recipient_name": "A, TEST",
+        "read_receipt": "READ"
+      }
+    },
+    {
+      "id": "573041",
+      "type": "va_healthcare_messaging_messages",
+      "attributes": {
+        "message_id": 573041,
+        "category": "OTHER",
+        "subject": "Release 16.2- SM last login ",
+        "body": "Release 16.2- SM last login this is the message body and can really really long",
+        "attachment": false,
+        "sent_date": "2016-04-11T15:48:25.000Z",
+        "sender_id": 384939,
+        "sender_name": "A, TEST",
+        "recipient_id": 345468,
+        "recipient_name": "WORKLOAD CAPTURE_Md",
+        "read_receipt": "READ"
+      }
+    }
+  ]
+}
