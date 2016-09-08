@@ -121,7 +121,7 @@ server.mount_proc '/v0/messaging/health/folders' do |req, res|
   generate_response(res, './json_responses/folders.json')
 end
 
-server.mount_proc '/v0/messaging/health/folders/12345/messages' do |req, res|
+server.mount_proc '/v0/messaging/health/folders/1/messages' do |req, res|
   generate_response(res, './json_responses/folders-messages.json')
 end
 
