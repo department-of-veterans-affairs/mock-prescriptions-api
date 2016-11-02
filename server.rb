@@ -105,7 +105,7 @@ server.mount_proc '/mhv-sm-api/patient/v1/folder/-1/message/page/1/pageSize/10' 
   generate_response(res, './json_responses/folder-1message.json')
 end
 
-server.mount_proc '/mhv-sm-api/patient/v1/folder/0/message/page/1/pageSize/10' do |req, res|
+server.mount_proc '/mhv-sm-api/patient/v1/folder/0/message/page/1' do |req, res|
   generate_response(res, './json_responses/folder-1message.json')
 end
 
