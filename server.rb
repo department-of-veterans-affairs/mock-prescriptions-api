@@ -101,6 +101,10 @@ server.mount_proc '/mhv-sm-api/patient/v1/folder/-1' do |req, res|
   generate_response(res, './json_responses/folder-1.json')
 end
 
+server.mount_proc '/mhv-sm-api/patient/v1/folder/0' do |req, res|
+  generate_response(res, './json_responses/folder-1.json')
+end
+
 server.mount_proc '/mhv-sm-api/patient/v1/folder/-1/message/page/1/pageSize/10' do |req, res|
   generate_response(res, './json_responses/folder-1message.json')
 end
@@ -119,22 +123,6 @@ end
 
 server.mount_proc '/mhv-sm-api/patient/v1/message/category' do |req, res|
   generate_response(res, './json_responses/messagecategory.json')
-end
-
-server.mount_proc '/v0/messaging/health/folders/1/messages' do |req, res|
-  generate_response(res, './json_responses/folders-messages.json')
-end
-
-server.mount_proc '/v0/messaging/health/folders' do |req, res|
-  generate_response(res, './json_responses/folders.json')
-end
-
-server.mount_proc '/v0/messaging/health/messages/12345/thread' do |req, res|
-  generate_response(res, './json_responses/messages-thread.json')
-end
-
-server.mount_proc '/v0/messaging/health/recipients' do |req, res|
-  generate_response(res, './json_responses/recipients.json')
 end
 
 
